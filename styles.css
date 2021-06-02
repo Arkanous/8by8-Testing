@@ -1,0 +1,88 @@
+
+/* Background image layering */
+body {
+    background-image: url(Background1.png); /* url will be the directory the image is in */
+    background-color: #cccccc;
+    min-height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-position: top left;
+} 
+
+/* Big orange text postitioning and style */
+text1 {
+    font-family: Fantasy;
+    font-style: Copperplate;
+    font-size: 500%;
+    text-align: Left;
+    letter-spacing: 5%;
+    fill: Solid;
+    color: #D2513D;
+    position: relative;
+    top: 1000px; left: 11%;
+    font-weight: bold;
+}
+
+/* Smaller blue text positioning and style */
+text2 {
+    font-family: Montserrat;
+    font-style: SemiBold;
+    font-size: 200%;
+    line-height: 115%;
+    text-align: Left;
+    letter-spacing: 10%;
+    fill: Solid;
+    color: #87B4D0;
+    position: relative;
+    top: 1150px; left: -22.5%;
+}
+
+/* Email input position and style */
+.fillbox {
+    fill: Solid;
+    color: rgba(206, 206, 206, 0.1);
+    position: relative;
+    top: 3950px; 
+    left: -12%;
+    padding:15px 10px;
+    line-height:400%;
+    width: 50%;
+    margin-top: 200px; 
+    height: 600%;
+    z-index: 1;
+    font-size: 400%;
+}
+
+/* Button location and style */
+.orangeButton {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 25%;
+    top:4000px;
+    background: #D2513D;
+    border: 2px solid #D2513D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    line-height:200%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 400%;
+    color: white;
+}
+
+/* .buttonOnPage1 {
+    
+} */
+
+@media screen and (min-width: 600px) {
+
+    .displayNone {
+        display: none;
+    }
+
+    
+}
